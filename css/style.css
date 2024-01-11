@@ -10,13 +10,18 @@
 .container {
     width: 93%;
     margin: 40px auto;
-    max-width: 1200px;
+    max-width: 1280px;
     display: flex;
     gap: 20px;
     padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f5f5f5;
+    padding:90px 0px;
 
 }
-
+.text-container{
+    padding-left: 70px;
+}
 .img {
     height: 60px;
     width: 50px;
@@ -35,7 +40,7 @@
 }
 .container p {
     /* color: ; */
-    width: 85%;
+    width: 70%;
     font-size: 1.25rem;
     line-height: 2.5rem;
 }
@@ -69,11 +74,10 @@
 }
 
 .card{
-    width:350px;
+    width:250px;
     background-color: white;
     border-radius: 10px;
-    border:3px solid red;
-    padding:20px 20px 20px 30px;
+    padding:15px 40px;
     position:relative;
 
     
@@ -83,12 +87,12 @@
 
 #card-1{
     top:20px;
-    left:70px;
+    right:50px;
 }
 
 #card-2{
     top:70px;
-    right:160px;
+    right:220px;
 }
 
 .card p{
