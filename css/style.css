@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600&display=swap');
+
+* {
+    /* background-color: #e5e5e5; */
+    font-family: 'Sora', sans-serif;
+}
+
+
+
+.container {
+    width: 93%;
+    margin: 40px auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 20px;
+    padding-top: 90px;
+
+}
+
+.img {
+    height: 60px;
+    width: 50px;
+
+}
+
+.img img {
+    background-color: #F5C044;
+    border-radius: 50%;
+    padding: 5px;
+    width: 80%;
+}
+.container .title{
+    font-size: 2.25rem;
+    margin-bottom: 10px;
+}
+.container p {
+    /* color: ; */
+    width: 85%;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+.container .list {
+    display: flex;
+    gap: 10px;
+
+}
+
+.list .p-list {
+    font-size: .875rem;
+    line-height: normal;
+
+}
+
+/* Card */
+
+
+.header{
+    display:flex;
+    gap:15px;
+}
+
+.pic{
+    height:30px;
+}
+
+.pic img{
+    width:100%;
+}
+
+.card{
+    width:350px;
+    background-color: white;
+    border-radius: 10px;
+    border:3px solid red;
+    padding:20px 20px 20px 30px;
+    position:relative;
+
+    
+
+
+}
+
+#card-1{
+    top:20px;
+    left:70px;
+}
+
+#card-2{
+    top:70px;
+    right:160px;
+}
+
+.card p{
+    /* border: 2px solid red; */
+    border-radius: 5px;
+font-size: 1rem;
+line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
